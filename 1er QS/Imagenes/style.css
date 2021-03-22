@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(197, 219, 219, 0.699);
+}
+
+.container__1 {
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.container__2 {
+    margin: 0 300px;
+    position: static;
+}
+
+.img__1 {
+    width: 100%;
+    border-radius: 20px;
+    filter: grayscale(70%);
+}
+
+.img__2 {
+    width: 100%;
+    border-radius: 20px;
+    filter: saturate(50%);
+}
+
+.img__3 {
+    width: 100%;
+    border-radius: 20px;
+    filter: blur(4px) opacity(80%);
+}
+

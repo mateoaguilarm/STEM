@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    background-color: cadetblue;
+}
+
+#main__title {
+    text-align: center;
+    margin-top: 45px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.main__container {
+    background-color: rgba(179, 255, 255, 0.336);
+    margin: 50px 100px 50px 100px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.main__p {
+    text-indent: 5px;
+}
