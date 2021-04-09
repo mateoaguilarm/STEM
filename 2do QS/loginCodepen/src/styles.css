@@ -103,7 +103,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #38d39f;
+	background-color: #42baff;
 	transition: .4s;
 }
 
@@ -125,7 +125,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #38d39f;
+	color: #42baff;
 }
 
 .input-div > div > input{
@@ -157,7 +157,7 @@ a{
 }
 
 a:hover{
-	color: #38d39f;
+	color: #42baff;
 }
 
 .btn {
@@ -167,7 +167,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-image: linear-gradient(to right, #42baff, #76cdff, #42baff);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -176,10 +176,17 @@ a:hover{
 	margin: 1rem 0;
 	cursor: pointer;
 	transition: .5s;
+	box-shadow:0 16px 40px rgba(0,0,0,0.12);
+	border:0;
 }
 .btn:hover{
 	background-position: right;
 }
+
+/* #mainImg {
+	margin-right: 200px;
+	padding-right: 10px;
+} */
 
 
 @media screen and (max-width: 1050px){

@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector("#btn1").addEventListener("click",(()=>{alert("asd")}))})();
