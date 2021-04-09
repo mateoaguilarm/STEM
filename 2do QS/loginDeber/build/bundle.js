@@ -1,1 +1,1 @@
-(()=>{"use strict";document.querySelector("#btn1").addEventListener("click",(()=>{alert("asd")}))})();
+(()=>{"use strict";const e=document.querySelector("#btn1");document.querySelector(".mainDiv"),e.addEventListener("click",(()=>{alert("asd")})),changing(),function(){let e=["0, 0, 0, 0.100","0, 0, 0, 0.300","0, 0, 0, 0.200"];for(let t=0;t<e.length;t++)return"rgba"+Math.random(e)}()})();
